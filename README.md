@@ -1,4 +1,6 @@
-A Deep Learning Model to Recommend Book.
+# Book Recommender System
+
+A Deep Learning Model to Recommend Books.
 Technique Used: User Based Collaborative filtering 
 Technologies:
   1) Python 3
