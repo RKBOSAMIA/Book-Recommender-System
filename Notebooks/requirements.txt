@@ -1,0 +1,7 @@
+Following packages are required:
+
+1) Python3
+2) Tensorflow 2.0
+3) Keras
+4) sklearn
+5) flask
