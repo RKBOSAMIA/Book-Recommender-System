@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form action = 'http://127.0.0.1:5000/results' method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Select User
+                    </td>
+                    <td>
+                        <select name="user_id">
+                            {% for user_id in result %}
+                                <option>{{user_id}}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Go">
+        </form>
+    </body>
+</html>
